@@ -1,0 +1,15 @@
+解决error: required vim compiled with +python的问题
+
+
+apt-get install -y python-software-properties software-properties-common
+
+
+# add this repo so that vim has python 4? compiled in to support plugins like gundo
+add-apt-repository -y ppa:pi-rho/dev
+apt-get update
+
+apt-get install vim
+
+由于ubuntu 16.04 中的vim仅支持python3， 因此若要支持python2， 需要安装其它包（vim-nox-py2）
+
+apt-get isntall vim-nox-py2
