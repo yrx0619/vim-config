@@ -12,4 +12,4 @@ apt-get install vim
 
 由于ubuntu 16.04 中的vim仅支持python3， 因此若要支持python2， 需要安装其它包（vim-nox-py2）
 
-apt-get isntall vim-nox-py2
+apt-get install vim-nox-py2
